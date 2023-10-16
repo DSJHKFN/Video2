@@ -1,0 +1,29 @@
+body
+{
+    background-color: burlywood;
+}
+h1
+{
+    background-color: rgba(200, 100, 300, 0.5);
+    color : rgba(100, 100, 300, 0.5);
+}
+#show_sketch{
+    float:right;
+}
+p
+{
+    padding-top:10px;
+    font-size:25px;
+}
+canvas{
+    border: 5px solid white;
+    animation-name: example;
+    animation-duration: 4s;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 1px 38px rgba(212, 30, 30, 0.671);}
+    to{box-shadow: 1px 1px 1px 38px rgb(206, 111, 177);}
+}
